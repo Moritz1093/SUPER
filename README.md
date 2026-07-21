@@ -23,7 +23,23 @@
     <a href="https://youtu.be/GPHuzG0ANmI?si=npW-FNp1rkQQ5YaF"><img alt="Youtube" src="./misc/Video-Youtube-red.svg"/></a>
 </div>
 
-
+# Changes
+[ Gazebo Sim ] (Mid-360 LiDAR + IMU)
+      │
+      ▼
+[ ros_gz_bridge ]
+      │
+      ├──> /livox/lidar_sim  ──┐
+      └──> /livox/imu_sim    ──┼──> [ FAST-LIVO / Odometrie ]
+                               │           │ (Odometrie)
+                               │           ▼
+                               └───> [ ROG-Map ] ──> [ SUPER Planner ]
+                                                            │
+                                                            ▼ (Rate Setpoints)
+                                                      [ OMMPC Node ]
+                                                            │
+                                                            ▼ (uXRCE-DDS)
+                                                      [ PX4 FMU ]
 
 # Updates
 * **Mar. 09, 2025** - The hardware components of SUPER have been released at [SUPER-Hardware](https://github.com/hku-mars/SUPER-Hardware) 🦾
