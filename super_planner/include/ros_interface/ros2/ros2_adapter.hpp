@@ -41,7 +41,9 @@
 #include "mars_quadrotor_msgs/msg/polynomial_trajectory.hpp"
 #include "geometry_msgs/msg/point.hpp"
 #include "rosgraph_msgs/msg/clock.hpp"
+#include <cmath>
 
+using std::isnan;
 namespace ros_interface {
     using namespace geometry_utils;
     using namespace color_text;
