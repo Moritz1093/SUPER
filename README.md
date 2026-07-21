@@ -119,7 +119,7 @@ sudo apt-get install -y \
   ros-humble-pcl-ros \
   libpcl-dev \
   ros-humble-rosfmt
-``
+```
 
 Before building the code, select the appropriate ROS version:
 
