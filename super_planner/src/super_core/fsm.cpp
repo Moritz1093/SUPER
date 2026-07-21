@@ -23,8 +23,10 @@
 
 #include <fsm/fsm.h>
 #include <memory>
+#include <cmath>
 
 using namespace super_utils;
+using std::isnan;
 
 namespace fsm {
     Fsm::~Fsm() {
