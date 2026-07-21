@@ -19,7 +19,7 @@ namespace mission_planner {
     using namespace std;
     enum TriggerType {
         RVIZ_CLICK = 0,
-        MAVROS_RC = 1,
+        PX4_RC = 1,
         TARGET_ODOM = 2
     };
 
