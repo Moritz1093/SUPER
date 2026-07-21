@@ -24,6 +24,7 @@
 </div>
 
 # Changes
+```bash
 [ Gazebo Sim ] (Mid-360 LiDAR + IMU)
       │
       ▼
@@ -40,6 +41,7 @@
                                                             │
                                                             ▼ (uXRCE-DDS)
                                                       [ PX4 FMU ]
+```
 
 # Updates
 * **Mar. 09, 2025** - The hardware components of SUPER have been released at [SUPER-Hardware](https://github.com/hku-mars/SUPER-Hardware) 🦾
