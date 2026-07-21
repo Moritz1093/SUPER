@@ -25,8 +25,10 @@
 #include <memory>
 #include <super_utils/scope_timer.hpp>
 #include <fmt/color.h>
+#include <cmath>
 
 using namespace super_utils;
+using std::isnan;
 
 namespace super_planner {
     SuperPlanner::SuperPlanner
