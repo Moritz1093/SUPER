@@ -110,6 +110,16 @@ sudo apt-get install libdw-dev
 # for ROS dependency
 sudo apt-get install ros-${YOUR-ROS-VERSION}-mavros* ros-${YOUR-ROS-VERSION}-pcl* ros-${YOUR-ROS-VERSION}-rosfmt
 ```
+```bash
+# for ROS2 humble
+sudo apt-get install -y libglfw3-dev libglew-dev libncurses5-dev libncursesw5-dev libdw-dev libeigen3-dev
+
+sudo apt-get install -y \
+  ros-humble-pcl-conversions \
+  ros-humble-pcl-ros \
+  libpcl-dev \
+  ros-humble-rosfmt
+``
 
 Before building the code, select the appropriate ROS version:
 
